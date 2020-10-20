@@ -1,0 +1,21 @@
+Please run the bash scripts according to the following steps:
+
+$ ./moose/scripts/stork.sh test_bash
+$ cd test_bash
+$ vim Makefile (activate the phase_field module)
+$ make -j8
+$ ./run_tests -j8
+Upload the input files (csv, bash, slurm, input file) by FileZilla
+$ ./run_scripts_revised.sh
+
+
+1- The name of executive file is “test_bash-opt”, so please make a folder with name “test_bash” in the projects directory on R2. Otherwise, you have to change the executive file name in the “slurm-batch.bash” file based on the provided name for your folder.
+
+2- Please use “-j8” (8 cores) for making your executive file and running the “run_tests”
+$ make -j8
+$./run_tests -j8
+
+3- I have attached a csv file as well as input, slurm, and bash files, that you will uploaded them in the “test_bash” directory on R2.
+
+4- You just need to run “./run_scripts_revised.sh”
+$ ./ run_scripts_revised.sh
