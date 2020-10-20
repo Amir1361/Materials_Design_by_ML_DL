@@ -1,0 +1,1 @@
+We have microstructure and minimum and maximum composition in each phase. There are multiple inputs and mixed Data in our input. Therefore, the images features are extracted by CNN, then a deep NN are developed to predict temperature.
